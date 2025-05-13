@@ -403,3 +403,25 @@ footer {
 	border-top: 1px solid #444;
 	color: #bbb;
 }
+ @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 36px;
+            }
+            
+            .header-content p {
+                font-size: 18px;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .about-content {
+                flex-direction: column;
+            }
+            
+            .about-text {
+                padding-right: 0;
+                margin-bottom: 30px;
+            }
+        }
